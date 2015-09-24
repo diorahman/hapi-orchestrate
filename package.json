@@ -1,0 +1,26 @@
+{
+  "name": "hapi-orchestrate",
+  "version": "1.0.0",
+  "description": "Orchestrate plugin for Hapi",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "lab -r console -t 100 -a code -m 10000"
+  },
+  "keywords": [
+    "hapi",
+    "orchestrate",
+    "client",
+    "application"
+  ],
+  "author": "Dhi Aurrahman <diorahman@rockybars.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "code": "^1.5.0",
+    "hapi": "^10.0.1",
+    "hoek": "^2.16.3",
+    "lab": "^5.18.1"
+  },
+  "dependencies": {
+    "orchestrate": "^0.5.0"
+  }
+}
